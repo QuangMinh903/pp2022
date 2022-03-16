@@ -1,0 +1,20 @@
+classPopulation = 0
+classList = []
+courseNum = 0
+courseLIst = []
+gradeDict = {}
+def stuNum(num):
+    classPopulation = num
+def addStu (stuID, stuName, stuDoB):
+    classList.append((stuID, stuName, stuDoB))
+    for courses in gradeDict:
+        courses[stuID] = 0
+def courseNum(num):
+    courseNum=num
+def addCourse(courseID, courseName):
+    courseList.append((courseID, courseName))
+    courseGrade = {}
+    for student in classList:
+        courseGrade[student[0]] = 0
+    gradeDict[courseID] = courseGrade
+def addGrades(courseID, stuID, grade)
