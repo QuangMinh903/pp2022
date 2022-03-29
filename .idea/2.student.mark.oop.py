@@ -1,8 +1,6 @@
 class Stu:
 
-    def input(self, stuLabel=None):
-        if stuLabel is not None:
-            print("Type student's information {} ".format(studentLabel))
+    def input(self):
         self.sid = input(f"Enter id: ")
         self.sname = input("Enter name: ")
         self.studentdob = input("Enter date of birth: ")
@@ -17,9 +15,8 @@ class Cour:
     def __init__(self):
         self.mark = []
 
-    def input(self, courLabel=None):
-        if courLabel is not None:
-            print("Type course's information {} ".format(courseLabel))
+    def input(self):
+        print("Type course's information")
         self.cid = input(f"Enter course's id: ")
         self.sname = input("Enter student's name: ")
 
